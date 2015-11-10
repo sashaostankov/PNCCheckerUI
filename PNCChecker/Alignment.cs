@@ -219,7 +219,7 @@ namespace PNCChecker
         /// <param name="needLog">Необходимый лог.</param>
         public virtual int GetHeuristic(List<string> needLog)
         {
-            // TODO: домножить на коэффициент COSTMOveinLOG
+            // TODO: домножить на коэффициент COSTMOveinLOG 
             return needLog.Count - GetLastCommonIndex(needLog);
         }
 
